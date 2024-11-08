@@ -1,0 +1,25 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NEXT_PUBLIC_SUPABASE_URL = "your_supabase_url"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "your_supabase_anon_key"
+
+# Handle dynamic routes and SPA fallback
+[[redirects]]
+  from = "/:username"
+  to = "/[username].html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
