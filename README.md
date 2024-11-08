@@ -21,4 +21,4 @@ A modern link management platform built with Next.js and Supabase.
 
 ## Getting Started
 
-1. Clone the repository: 
+1. Clone the repository:

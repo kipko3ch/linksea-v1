@@ -1,5 +1,9 @@
 {
-  "name": "linksea",
+  "name": "linksea-v1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kipko3ch/linksea-v1.git"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
