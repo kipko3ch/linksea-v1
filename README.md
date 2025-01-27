@@ -1,3 +1,4 @@
+Here is the live project https://linksea.vercel.app
 # LinkSea
 
 A modern link management platform built with Next.js and Supabase.
